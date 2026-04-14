@@ -26,7 +26,7 @@ Before running the application, ensure you have the following installed:
 Setup & Installation
 
 1. Clone the Repository
-git clone [https://github.com/MHD-CNC/MAXEL-OS.git]
+git clone https://github.com/MAXEL-OS/MAXEL-OS.git
 cd MAXEL-OS
 
 2. Install Dependencies
