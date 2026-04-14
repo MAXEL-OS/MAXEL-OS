@@ -1,20 +1,42 @@
-# Hi, I'm MAXEL 👋
+MAXEL-OS AI Control Center
 
-### 🛠 Independent System Architect & Tech Solutionist
-I believe in **Digital Sovereignty**. My mission is to build software that belongs to the user, not the cloud.
+MAXEL-OS is a professional desktop interface for local Large Language Models (LLMs). It provides a high-performance, modern UI specifically designed to handle bilingual interactions (English/Arabic) with full RTL support.
+Core Features
 
----
+    Modern GUI: Built with CustomTkinter for a sleek, dark-themed experience.
 
-## 🚀 What I'm Building:
-* **MAXEL-OS:** A Linux-based operating system designed for **100% offline autonomy**. No tracking, no data interference, just pure performance.
-* **Creative Hardware Reuse:** Transforming old hardware (like tablets) into functional tools like MIDI pianos or specialized control centers.
-* **Privacy-First AI:** Integrating local AI models that process data on-device, ensuring zero external exposure.
+    Smart Conversation History: Automatically saves, renames, and manages your chat sessions.
 
-## 🎯 My Philosophy:
-> "Technology should work for us, without us being the product."
+    Advanced Controls: Pin important chats and delete old ones with a single click.
 
-* **Offline-First:** If it doesn't work offline, it's not truly yours.
-* **Creative Problem Solving:** Turning technical limitations into unique digital solutions.
+    Universal RTL Support: Native support for Arabic text shaping and Right-to-Left alignment.
 
----
-⚡ **Status:** Currently in "Stealth Mode" (Developing the core system files).
+    Local & Private: Powered by Ollama, ensuring your data never leaves your machine.
+
+Prerequisites
+
+Before running the application, ensure you have the following installed:
+
+1.    Ollama: Download from ollama.com
+
+2.    Qwen 2.5 Model: Run the command:
+    Bash
+    ollama run qwen2.5
+    
+Setup & Installation
+
+1. Clone the Repository
+git clone [https://github.com/MHD-CNC/MAXEL-OS.git](https://github.com/MHD-CNC/MAXEL-OS.git)
+cd MAXEL-OS
+
+2. Install Dependencies
+pip install -r requirements.txt
+
+3. Configure the Model
+Create the custom model using the provided Modelfile:
+ollama create maxel-ai -f Modelfile
+
+4. Run the Application
+sh run.sh
+
+
