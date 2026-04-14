@@ -17,7 +17,7 @@ Prerequisites
 
 Before running the application, ensure you have the following installed:
 
-1.    Ollama: Download from ollama.com
+1.    Ollama: Download from https://ollama.com/
 
 2.    Qwen 2.5 Model: Run the command:
     Bash
