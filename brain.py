@@ -20,7 +20,7 @@ def call_ollama(prompt, history):
     }
     
     try:
-        r = requests.post("http://localhost:11434/api/generate", json=payload, timeout=60)
+        r = requests.post("http://localhost:11434/api/generate", json=payload, timeout=600)
         response = r.json().get("response", "Error: Empty response")
         return response
     except Exception as e:
